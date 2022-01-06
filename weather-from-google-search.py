@@ -12,7 +12,6 @@ headers = {
 params = {
   "q": "istanbul weather",
   "hl": "tr",
-
 }
 
 response = requests.get('https://www.google.com/search', headers=headers, params=params).text
